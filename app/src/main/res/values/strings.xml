@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Firebase Java Project</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="go_to_database">Go To Database</string>
+    <string name="enter_a_food">Enter a food</string>
+    <string name="add_food_to_database">Add Food To Database</string>
+    <string name="add_to_database">add_to_database</string>
+    <string name="view_user_data_from_database">View User Data From Database</string>
+    <string name="user_data_from_database">User Data From Database</string>
+    <string name="add_image">add image</string>
+    <string name="enter_image_name">Enter image name</string>
+    <string name="upload_to_storage">Upload to Storage</string>
+    <string name="loading_image">Loading Image...</string>
+    <string name="add_user_data_to_database">Add User Data To Database</string>
+</resources>

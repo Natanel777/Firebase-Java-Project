@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- EditText to enter food item -->
+    <EditText
+        android:id="@+id/editTextFood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:hint="@string/enter_a_food"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Button to add food to database -->
+    <Button
+        android:id="@+id/btnAddNewFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_database"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2454A6"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFood"
+        app:layout_constraintStart_toStartOf="@+id/editTextFood"
+        app:layout_constraintEnd_toEndOf="@+id/editTextFood" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

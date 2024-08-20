@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "78237072494",
+    "project_id": "fir-java-project-e0cb0",
+    "storage_bucket": "fir-java-project-e0cb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78237072494:android:54f4fac43147b8f4bfba7f",
+        "android_client_info": {
+          "package_name": "natanel.android.firebasejavaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB03e5cHDFnIYr4yh6H2lVD7GRXFDyGtEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
